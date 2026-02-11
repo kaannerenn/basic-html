@@ -1,0 +1,21 @@
+body{
+    background-color:bisque ;
+    font-family:'Crimson+Pro';
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1em;
+}
+#kaan{
+    border: 7px dashed blue;
+    padding: 10px;
+    margin: 30px;
+}
+#eren{
+    border: 7px solid purple;
+    padding-top: 20px;
+}
