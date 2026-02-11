@@ -1,0 +1,35 @@
+h2{
+    color:crimson;
+    background-color: aqua;
+}
+h3{
+    color:purple
+}
+p{
+    color:chocolate;
+    background-color: aquamarine;
+}
+.first_div{
+    background-color: yellowgreen;
+}
+#myparagraph{
+    color: black;
+}
+div{
+    background-color: black;
+}
+span{
+    background-color: brown;
+}
+h1{
+    color:white;
+}
+h4{
+    color:white;
+}
+#second_paragraph{
+    color:blue
+}
+.second_div{
+    background-color: tomato;
+}
