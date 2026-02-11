@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Forms</title>
+</head>
+<body>
+    <table border=1>
+        <!-- table head-->
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <!-- table row--> 
+        <tr>
+            <td>James</td>
+            <td>100</td>
+            <td>Marketing</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Stephen</td>
+            <!-- boş bırakmak istiyorsak bile <td></td> tagini koymalıyız. Yoksa sıra karışır.-->
+            <td></td>
+            <td>Sales</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <form action="images_links.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary">
+        <br>
+        <!-- type ="submit" butondur-->
+        <input type="submit">
+    </form>
+
+    <br><br><br>
+    <form action="basic_html.html">
+        <label for="email">Email:</label>
+        <!-- email ve password önceden tanımlı type'dır-->
+        <input type="email" id="email" name="email" placeholder="enter your email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="enter your password">
+        <input type="submit" value="login">
+    </form>
+
+    <br><br><br>
+    <form action="html_lists.html">
+        <p>Star wars vs Star trek.</p>
+        <!-- Eğer name kısımlarını aynı yaparsak sadece single choice'a izin veririz.-->
+        <!-- farklı name'lerde ise multiple choice açık olur.-->
+        <!-- fakat movie olduğunda ikisi parametre olarak movie=on gider ayırt edemeyiz.-->
+        <!-- ayırt edebilmek için birde value ekleyeceğiz.-->
+        <!-- artık movie=on değilde movie=starwars ya da startrek diye gider parametre.-->
+        <label for="starwars">Starwars:</label>
+        <input type="radio" id="starwars" name="movie" value="starwars">
+        <br>
+        <label for="startrek">Startrek:</label>
+        <input type="radio" id="startrek" name="movie" value="startrek">
+        <br>
+        <input type="submit" value="choose">
+    </form>
+
+    <br><br><br>
+    <form action="div_span.html">
+        <select name="rating" id="rating_id">
+            <p>Rate your experience</p>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        <br>
+        <input type="submit" value="Give Rating">
+    </form>
+
+</body>
+</html>
